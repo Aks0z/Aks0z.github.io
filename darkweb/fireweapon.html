@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<htlm>
+    <head>
+    <title>Fire weapons</title>
+    <style>
+        
+        h1 {
+            text-align: center;
+            color: #008000;
+        }
+        body {
+            background-color: #000000;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        ul{
+            color: #008000 ;
+        }
+        
+#menu > li,
+#menu > li li {
+	position: relative;
+	display:inline-block;
+	width: 110px;
+	padding: 10px 20px;
+	background-color: rgb(0, 0, 0);
+	background-image: linear-gradient(#008000, rgb(0, 0, 0) 50%, rgb(0, 0, 0) 50%,rgb(0, 0, 0));
+}
+#menu ul {
+    border-width:1px;
+    border-style:ridge;
+    border-color:#008000;
+	position: absolute;
+	top: 2em; left: 0;
+	max-height:0em;	
+	margin: 0; padding: 0;
+	background-color: #008000;
+	background-image: linear-gradient(#fff,#ddd);
+	overflow: hidden;
+	transition: 1s max-height 0.3s;
+	border-radius: 0 0 8px 8px;
+}
+#menu > li:hover ul {
+    max-height: 13em;
+}
+a {color:#008000
+}
+
+    </style>
+</head>
+<body>
+    <h1>Fire weapons</h1>
+
+    <ul id="menu">
+        <li id="Pistol">Pistol 
+            <ul>
+                <li><a href="Glock.html">Glock</a></li>
+                <li><a href="BerettaM92FS.html">Beretta M92 FS</a></li>
+            </ul>
+        </li>       <li id="Assault rifle">Assault rifle
+            <ul>
+                <li><a href="AK47.html">AK47</a></li>
+                <li><a href="ColtM4.html">ColtM4</a></li>
+                <li><a href="MP5.html">MP5</a></li>
+                <li><a href="M16.html">M16</a></li>
+                <li><a href=M14.html>M14</a></li>
+                <li><a href=Ar70&90.html>Ar70/90</a></li>
+            </ul>
+        </li>         <li id="ShotGun">ShotGun
+            <ul>
+                <li><a href=Remington870.html>Remington 870</a></li>
+                <li><a href=Mossberg500.html>Mossberg 500</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</htlm>
